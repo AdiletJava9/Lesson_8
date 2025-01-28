@@ -1,5 +1,7 @@
 package kg.geeks.game.players;
 
+import kg.geeks.game.players.interfaces.Fighter;
+
 public class Berserk extends Hero implements Fighter {
     private int blockedDamage;
 
@@ -23,6 +25,7 @@ public class Berserk extends Hero implements Fighter {
     @Override
     public void applySuperPower(Boss boss, Hero[] heroes) {
         boss.setHealth(boss.getHealth() - this.blockedDamage);
+        System.out.println("----------------------------");
         System.out.println("Berserk " + this.getName() +
                 " has reverted " + this.blockedDamage);
     }

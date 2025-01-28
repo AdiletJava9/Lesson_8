@@ -1,6 +1,7 @@
 package kg.geeks.game.players;
 
 import kg.geeks.game.general.RPG_Game;
+import kg.geeks.game.players.interfaces.Fighter;
 
 public class Boss extends GameEntity implements Fighter {
     private SuperAbility defence;

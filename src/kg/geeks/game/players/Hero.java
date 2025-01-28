@@ -1,5 +1,7 @@
 package kg.geeks.game.players;
 
+import kg.geeks.game.players.interfaces.HavingSuperAbility;
+
 public abstract class Hero extends GameEntity
         implements HavingSuperAbility {
     private SuperAbility ability;

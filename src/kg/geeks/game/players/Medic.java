@@ -1,5 +1,7 @@
 package kg.geeks.game.players;
 
+import kg.geeks.game.general.RPG_Game;
+
 public class Medic extends Hero {
     private final int healPoints;
 
